@@ -1,0 +1,314 @@
+/*  */
+/* @media (min-width : 1025) and (max-width : 1400px){ */
+    /* .header .navbar{ */
+        /* width: 90%; */
+    /* } */
+/*  */
+    /* .logo { */
+        /* padding-left: 30px; */
+    /* } */
+/* } */
+
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+     /* global css */
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left ;
+}
+.col-6{
+    width: 100%;
+    float: left;
+}
+.col-4{
+    width: 100%;
+    float: left;
+}
+.col-3{ 
+    width: 100%;
+    float: left;
+}
+/* global css end */
+/* CSS start*/
+.col-6 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+/* css end */
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+/* CSS  start*/
+.col-6 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.banner h1 {
+    font-size: 55px;
+    line-height: 1.4em;
+    color: #0F2656;
+    font-weight: 900;
+    margin: 0px 0px 15px;
+}
+.banner p {
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #0f2656;
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+.banner .banner-img {
+    width: 90%;
+}
+.successfull .left-box p {
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #0f2656;
+    font-weight: 600;
+    margin: 0px 15px 5px 0px;
+}
+.successfull .right-box h1 {
+    font-size: 55px;
+    line-height: 1.2em;
+    color: #0F2656;
+    font-weight: 800;
+    margin: 0px 0px 5px 15px;
+}
+.features {
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.row {
+    width: 100%;
+    float: left;
+    padding: 10px 10px;
+}
+
+/* css end */
+
+}
+
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+/* CSS start*/
+
+    /* global css */
+    .container{
+        width: 90%;
+        margin: 0px auto
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left ;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-3{ 
+        width: 100%;
+        float: left;
+    }
+    /* global css end */
+    .logo{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .features .inner-feature {
+        width: 76%;
+        margin: 10px 10px 10px 5px;
+        padding: 50px 30px;
+    }
+    .banner h1 {
+        font-size: 52px;
+        line-height: 1.4em;
+        color: #0F2656;
+        font-weight: 800;
+        margin: 0px 0px 10px;
+    }
+    .banner p {
+        font-size: 14px;
+        line-height: 1.7em;
+        color: #0f2656;
+        font-weight: 600;
+        margin: 0px 0px 20px;
+    }
+    .banner .banner-img {
+        width: 100%;
+    }
+    .successfull .left-box h1 {
+        line-height: 1.4em;
+        color: #F15666;
+        font-weight: 800;
+        margin: 0px 5px 5px 0px;
+        font-size: 52px;
+    }
+    .successfull .left-box p {
+        font-size: 14px;
+        line-height: 1.7em;
+        color: #0f2656;
+        font-weight: 600;
+        margin: 0px 15px 5px 0px;
+    }
+    .successfull .right-box h1 {
+        font-size: 50px;
+        line-height: 1.2em;
+        color: #0F2656;
+        font-weight: 400;
+        margin: 0px 0px 5px 15px;
+    }
+
+    /* css end */
+    }
+
+    
+/* CSS media query start */
+
+/* 
+##Device = Most of the Smartphones Mobiles Galaxy Fold (Portrait)
+##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px){
+
+    /* css start */
+    /* CSS start*/
+
+    /* global css */
+    .container{
+        width: 90%;
+        margin: 0px auto
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left ;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-3{ 
+        width: 100%;
+        float: left;
+    }
+    /* global css end */
+
+    .features .inner-feature {
+        width: 65%;
+        margin: 0px 15px 10px;
+        padding: 50px 30px;
+        /* background: #eee; */
+    }
+    .features {
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+    }
+    .successfull .right-box h1 {
+        font-size: 33px;
+        line-height: 1.2em;
+        color: #0F2656;
+        font-weight: 800;
+        margin: 0px 0px 5px 15px;
+    }
+    .successfull .left-box h1 {
+        font-size: 52px;
+        line-height: 1.7em;
+        color: #F15666;
+        font-weight: 800;
+        margin: 0px 15px 5px 0px;
+    }
+    .banner h1 {
+        font-size: 35px;
+        line-height: 1.4em;
+        color: #0F2656;
+        font-weight: 800;
+        margin: 0px 0px 10px;
+    }
+    .col-6 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    
+    
+
+    /* css end */
+}
+
+/* css media query end */
+
+/* 
+1200-1400
+992-1200
+772-992
+481-771
+250-480
+*/
+
+/* 
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+567 to 990
+481 to 566
+400 to 480
+375 to 399
+
+}
+
+*/
